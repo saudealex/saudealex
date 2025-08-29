@@ -7,4 +7,3 @@ st.write("Olá! Esse é um teste do Streamlit.")
 
 st.write("Esse é mais um teste")
 
-st.write("Esse é mais um teste 2.0")
