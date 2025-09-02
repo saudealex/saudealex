@@ -15,7 +15,7 @@ st.set_page_config(
     page_title='GDP dashboard',
     page_icon=':earth_americas:', # This is an emoji shortcode. Could be a URL too.
 )
-st.markdown("""
+st.markdown(
     <style>
         /* Muda a cor do título */
         h1 {
@@ -44,8 +44,8 @@ st.markdown("""
             color: #333333;
             font-size: 16px;
         }
-    </style>
-""", unsafe_allow_html=True)
+   </style>
+, unsafe_allow_html=True)
 # -----------------------------------------------------------------------------
 # Declare some useful functions.
 
