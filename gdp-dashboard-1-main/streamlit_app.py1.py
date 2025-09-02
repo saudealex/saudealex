@@ -16,36 +16,19 @@ st.set_page_config(
     page_icon=':earth_americas:', # This is an emoji shortcode. Could be a URL too.
 )
 st.markdown(
+    """
     <style>
-        /* Muda a cor do título */
-        h1 {
-            color: #1f77b4;
-            text-align: center;
-            font-family: 'Arial', sans-serif;
-        }
-
-        /* Muda o background */
-        .main {
-            background-color: #606060;
-        }
-
-        /* Botões com cor customizada */
-        .stButton>button {
-            background-color: #606060;
-            color: white;
-            font-size: 18px;
-            border-radius: 8px;
-            border: none;
-            padding: 10px 20px;
-        }
-
-        /* Muda a cor do texto */
-        .css-1offfwp p {
-            color: #333333;
-            font-size: 16px;
-        }
-   </style>
-, unsafe_allow_html=True)
+    h1 {
+        color: blue;
+        font-size: 18px;
+    }
+    .main{
+    background-color: #fff;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 # -----------------------------------------------------------------------------
 # Declare some useful functions.
 
