@@ -31,7 +31,7 @@ st.markdown(
 
         /* Botões com cor customizada */
         .stButton>button {
-            background-color: #4CAF50;
+            background-color: #606060;
             color: white;
             font-size: 18px;
             border-radius: 8px;
