@@ -26,7 +26,7 @@ st.markdown("""
 
         /* Muda o background */
         .main {
-            background-color: #ddd;
+            background-color: #606060;
         }
 
         /* Botões com cor customizada */
